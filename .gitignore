@@ -1,0 +1,36 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets / large audio
+dataset/
+*.wav
+*.flac
+*.mp3
+
+# ML caches
+*.npy
+*.npz
+*.pt.tmp
+
+# Training checkpoints
+checkpoints/*.pt
+
+# Generated outputs
+outputs/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

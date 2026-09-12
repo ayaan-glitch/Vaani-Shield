@@ -1,0 +1,29 @@
+# VAANI-SHIELD — Python dependencies
+#
+# Install: pip install -r requirements.txt
+#
+# Core audio
+numpy>=1.23,<2          # torch==2.3.1+cpu was compiled against NumPy 1.x
+librosa>=0.10
+soundfile>=0.12
+sounddevice>=0.4        # Live microphone audio capture
+scipy>=1.10             # Fast polyphase resampling
+
+# Deep learning (CPU-only by default; swap for CUDA wheel if GPU available)
+# GPU: pip install torch==2.3.1+cu121 torchaudio==2.3.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+torch==2.3.1+cpu
+torchaudio==2.3.1+cpu
+
+# Mobile export
+onnx>=1.15
+onnxruntime>=1.17          # CPU inference + ONNX sanity check
+
+# Training utilities
+tqdm>=4.65
+scikit-learn>=1.3          # optional: for advanced metrics if needed
+
+# Visualisation
+matplotlib>=3.7
+
+# Testing
+pytest>=7.0
