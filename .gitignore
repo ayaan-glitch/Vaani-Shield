@@ -34,3 +34,9 @@ outputs/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Frontend / Flutter
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins-dependencies
+.flutter-plugins-dependencies
