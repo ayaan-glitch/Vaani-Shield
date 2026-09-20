@@ -5,7 +5,7 @@ VAANI-SHIELD is an enterprise-grade, real-time voice clone and synthetic speech 
 
 ---
 
-## 🏗️ Architecture Comparison: Pitch Deck (PPT) vs. Implemented Solution
+##  Architecture Comparison: Pitch Deck (PPT) vs. Implemented Solution
 
 Below is a detailed layer-by-layer architectural comparison between the proposed **Target System (PPT)** and the **Current Implemented Prototype** in this repository.
 
@@ -24,7 +24,7 @@ Below is a detailed layer-by-layer architectural comparison between the proposed
 
 ---
 
-## 📊 End-to-End System Architecture Diagram
+##  End-to-End System Architecture Diagram
 
 ```mermaid
 flowchart TB
@@ -83,7 +83,7 @@ flowchart TB
 
 ---
 
-## 🔄 Real-Time Call Inference Sequence
+##  Real-Time Call Inference Sequence
 
 ```mermaid
 sequenceDiagram
@@ -116,7 +116,7 @@ sequenceDiagram
 
 ---
 
-## 🧠 Neural Network Pipeline (LCNN + GRU)
+##  Neural Network Pipeline (LCNN + GRU)
 
 ```mermaid
 graph LR
@@ -148,7 +148,7 @@ graph LR
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 Vaani-Shield/
@@ -195,7 +195,7 @@ Vaani-Shield/
 
 ---
 
-## 🚀 Quickstart
+##  Quickstart
 
 ### 1. Python ML Engine Setup
 
@@ -247,7 +247,7 @@ flutter run -d chrome
 
 ---
 
-## 🌐 Deploying Flutter Web to Vercel
+##  Deploying Flutter Web to Vercel
 
 The frontend is fully pre-configured for Vercel hosting:
 
@@ -280,14 +280,14 @@ Defined in [`src/config.py`](src/config.py):
 
 ---
 
-## 🛡️ Privacy & Compliance Notice
+##  Privacy & Compliance Notice
 
 - **Zero Audio Cloud Transmission**: In edge-deployment mode, raw voice data is converted to spectral representations in volatile memory on-device and never transmitted across the network.
 - **Explainable Metrics**: Produces verifiable temporal graphs and confidence scores for compliance auditing without storing voice recordings.
 
 ---
 
-## 📜 License & Acknowledgments
+##  License & Acknowledgments
 
 - Anti-spoofing research architecture based on the **ASVspoof 2019/2021** competition standards.
 - Designed for financial fraud prevention and critical communication protection.
